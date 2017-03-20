@@ -1,8 +1,8 @@
 {
   "name": "zandoc-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "zandoc webpack loader",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
   },
   "keywords": [
