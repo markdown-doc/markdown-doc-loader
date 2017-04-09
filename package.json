@@ -1,7 +1,7 @@
 {
-  "name": "zandoc-loader",
-  "version": "1.0.4",
-  "description": "zandoc webpack loader",
+  "name": "markdown-doc-loader",
+  "version": "1.0.0",
+  "description": "markdown doc webpack loader",
   "main": "lib/index.js",
   "scripts": {},
   "keywords": [

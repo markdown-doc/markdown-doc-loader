@@ -1,6 +1,12 @@
-## zandoc-loader
+## markdown-doc-loader
 
-A webpack loader to parse zandoc markdown to structured data using [unified](https://github.com/unifiedjs/unified).
+A webpack loader to parse markdown-doc markdown to structured data using [unified](https://github.com/unifiedjs/unified).
+
+## Ecosystem
+
+* markdown-doc-loader
+* react-markdown-doc-loader
+* markdown-doc-loader-utils
 
 ### Usage
 
@@ -14,7 +20,7 @@ Use as a webpack loader.
 			test: /\.md$/,
 			use: [
 				// additional loaders to convert markdown AST to js
-				'zandoc-loader'
+				'markdown-doc-loader'
 			]
 			}
 		]
@@ -32,4 +38,4 @@ Output array can have 3 types of ASTs, use `contentType` on the root to check ty
 * demo: indicates a demo tree, a demo consists of a code fragment and an optional title
 * markdown: indicates a normal markdown tree.
 
-`zandoc-loader-utils` consists some utilities for working with these ASTs.
+`markdown-doc-loader-utils` consists some utilities for working with these ASTs.
