@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+argparse@^1.0.7:
+  version "1.0.9"
+  resolved "http://registry.npm.taobao.org/argparse/download/argparse-1.0.9.tgz#73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86"
+  dependencies:
+    sprintf-js "~1.0.2"
+
 bail@^1.0.0:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/bail/download/bail-1.0.2.tgz#f7d6c1731630a9f9f0d4d35ed1f962e2074a1764"
@@ -39,6 +45,10 @@ comma-separated-tokens@^1.0.0, comma-separated-tokens@^1.0.1:
   resolved "http://registry.npm.taobao.org/comma-separated-tokens/download/comma-separated-tokens-1.0.4.tgz#72083e58d4a462f01866f6617f4d98a3cd3b8a46"
   dependencies:
     trim "0.0.1"
+
+esprima@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.npm.taobao.org/esprima/download/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
 
 extend@^3.0.0:
   version "3.0.1"
@@ -165,6 +175,13 @@ is-word-character@^1.0.0:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/is-word-character/download/is-word-character-1.0.1.tgz#5a03fa1ea91ace8a6eb0c7cd770eb86d65c8befb"
 
+js-yaml@^3.10.0:
+  version "3.10.0"
+  resolved "http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
 kebab-case@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/kebab-case/download/kebab-case-1.0.0.tgz#3f9e4990adcad0c686c0e701f7645868f75f91eb"
@@ -215,7 +232,7 @@ rehype-stringify@^3.0.0:
     hast-util-to-html "^3.0.0"
     xtend "^4.0.1"
 
-remark-frontmatter@^1.1.0:
+remark-frontmatter@1.1.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/remark-frontmatter/download/remark-frontmatter-1.1.0.tgz#9d23c2b376f56617bdb5c5560f1b56e45b19788b"
   dependencies:
@@ -256,6 +273,10 @@ space-separated-tokens@^1.0.0:
   resolved "http://registry.npm.taobao.org/space-separated-tokens/download/space-separated-tokens-1.1.1.tgz#9695b9df9e65aec1811d4c3f9ce52520bc2f7e4d"
   dependencies:
     trim "0.0.1"
+
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "http://registry.npm.taobao.org/sprintf-js/download/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
 state-toggle@^1.0.0:
   version "1.0.0"
