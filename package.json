@@ -1,6 +1,6 @@
 {
   "name": "markdown-doc-loader",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "markdown doc webpack loader",
   "main": "lib/index.js",
   "scripts": {},
